@@ -73,7 +73,7 @@ void loop() {
   s += "<br><input type=\"button\" name=\"b1\" value=\"SWITCH 03 OFF\" onclick=\"location.href='/110'\">";
   s += "<br><br>";
   String distance_s = String(distance);
-  s += "<br><input type=\"button\" name=\"b3\" value=\"READ WATER LEVEL\" onclick=\"location.href='/READ'\"><label>";
+  s += "<br><input type=\"button\" name=\"b3\" value=\"READ WATER LEVEL\" onclick=\"location.href='/READ'\"><label>    ";
   s += distance_s;
   s += "</label>";
   s += "</html>\n";
